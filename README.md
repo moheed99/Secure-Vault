@@ -1,18 +1,20 @@
-# Secure-Vault
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1I_3E0ukMZKXYoCuv4YHNCW2VGc31Y27_
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-
-**Welcome to Secure FinTech Vault**, a sophisticated web application designed to showcase modern cybersecurity best practices in a hands-on, interactive environment. This project provides a personal digital vault where users can manage their profile, store sensitive information securely, and analyze potential digital threats.
-
-It is built for **developers and security enthusiasts** who want to see fundamental security principles and advanced AI capabilities working together in a practical application.
-
----
-
-### ✨ **Core Features**
-
-* **🔐 Advanced Authentication System:** Secure user registration and login using the industry-standard **PBKDF2 algorithm** with a unique salt for every user, ensuring robust password protection.
-* **🛡️ End-to-End Encrypted Data Vault:** A "**Secret Note**" feature where user data is **encrypted on the client-side using AES-GCM** before being stored. This ensures that sensitive information remains confidential and tamper-proof at all times.
-* **🤖 AI-Powered Threat Analysis:** Leveraging the **Google Gemini API**, this feature allows users to paste any text (emails, URLs, code snippets) to receive an instant security analysis. The AI identifies potential threats like phishing or malware and provides a summary, severity level, and actionable recommendations.
-* **✍️ Secure User and File Management:** Includes secure profile updates, a "**Change Password**" function with current password verification, and a simulated secure file upload system with **strict client-side validation** for file types and size.
-* **📜 Comprehensive Audit Trail:** An **immutable Activity Log** records all significant user actions—from login attempts to data encryption—providing a clear and transparent security log for the user.
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

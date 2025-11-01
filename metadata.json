@@ -1,0 +1,5 @@
+{
+  "name": "Secure FinTech Vault",
+  "description": "A secure web application demonstrating key cybersecurity concepts including authentication, data encryption, input validation, and secure session management. Users can register, log in, manage a profile, encrypt and decrypt sensitive data, and view their activity logs.",
+  "requestFramePermissions": []
+}
