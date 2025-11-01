@@ -16,8 +16,3 @@ It is built for **developers and security enthusiasts** who want to see fundamen
 * **✍️ Secure User and File Management:** Includes secure profile updates, a "**Change Password**" function with current password verification, and a simulated secure file upload system with **strict client-side validation** for file types and size.
 * **📜 Comprehensive Audit Trail:** An **immutable Activity Log** records all significant user actions—from login attempts to data encryption—providing a clear and transparent security log for the user.
 
----
-
-Aap is format ko directly copy karke **README.md** file mein istemaal kar sakte hain.
-
-Kya aap chahenge ki main is README file mein **"How to run the project"** ya **"Technology Stack"** ke sections bhi shamil kar doon?
